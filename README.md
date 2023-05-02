@@ -1,4 +1,4 @@
-# Check a duplicating p2p networks for nokia routers
+# Check the duplicating p2p networks for nokia
 
 This is a simple tool for checking a duplicating p2p networks for nokia routers. 
 In some cases not all routes are visible in the RTM. For example p2p local routes with ISIS as IGP protocol where will be used with advertise-passive-only. And if as result an administartive mistake ocurs, another overlay protocols like RSVP will be impacted. 

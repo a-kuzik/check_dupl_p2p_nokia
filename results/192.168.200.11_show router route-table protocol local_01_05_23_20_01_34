@@ -1,0 +1,26 @@
+A:LAB-DR2#
+===============================================================================
+Route Table (Router: Base)
+===============================================================================
+Dest Prefix[Flags]                            Type    Proto     Age        Pref
+      Next Hop[Interface Name]                                    Metric
+-------------------------------------------------------------------------------
+10.15.23.2/32                                 Local   Local     09h34m27s  0
+       Lo-IGP                                                       0
+10.15.252.180/31                              Local   Local     09h30m24s  0
+       to LAB2-AR1                                                0
+192.168.113.154/32                             Local   Local     09h34m27s  0
+       system                                                       0
+10.23.24.64/31                              Local   Local     09h31m44s  0
+       to LAB-DR1                                                 0
+172.16.141.0/24                               Local   Local     09h31m45s  0
+       test_ies                                                     0
+172.16.142.0/24                               Local   Local     09h31m45s  0
+       to_upl_srvr1                                                 0
+-------------------------------------------------------------------------------
+No. of Routes: 6
+Flags: n = Number of times nexthop is repeated
+       B = BGP backup route available
+       L = LFA nexthop available
+       S = Sticky ECMP requested
+===============================================================================

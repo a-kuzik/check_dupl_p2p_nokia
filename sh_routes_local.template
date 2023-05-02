@@ -1,0 +1,13 @@
+Value Filldown HOSTNAME (\S+)
+Value Required Prfx ((\d+\.){3}\d+\/\d+)
+Value Type (\S+)
+Value Proto (\S+)
+Value Age (\S+)
+Value Pref (\d+)
+Value IfName ((\S+|\S+\s+\S+|\S+\s+\d+\S+))
+Value Metric (\d+$)
+
+Start
+  ^\S+\:${HOSTNAME}\#
+  ^${Prfx}\s+${Type}\s+${Proto}\s+${Age}\s+${Pref}.*
+  ^\s+${IfName}\s+${Metric}.* -> Record

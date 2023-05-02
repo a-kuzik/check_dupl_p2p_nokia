@@ -1,0 +1,8 @@
+- LAB-DR1:
+    IP_address: 192.168.200.10
+- LAB-DR2:
+    IP_address: 192.168.200.11
+- LAB-AR1:
+    IP_address: 192.168.200.12
+- LAB-AR2:
+    IP_address: 192.168.200.20
